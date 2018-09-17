@@ -83,12 +83,18 @@ class Song
     new_song_name = array[1].gsub(".mp3", "")
     new_name_of_artist = array[0]
 
-    
-    self.create(filename)
+
+    song = self.create
+    song.name = new_song_name
+    song.artist_name = new_name_of_artist
+     song
+
+   end
+ end
     
       #song = self.new
-         
-           
+
+
 
         # new_artist = artist_name
         #  song = self.new
@@ -121,8 +127,3 @@ class Song
 
 
 
-  end
-
-
-
-end
