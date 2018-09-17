@@ -91,7 +91,7 @@ class Song
 
    end
  end
-    
+
       #song = self.new
 
 
@@ -123,7 +123,3 @@ class Song
 
 
         #binding.pry
-
-
-
-
