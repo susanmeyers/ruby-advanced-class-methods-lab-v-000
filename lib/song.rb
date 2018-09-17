@@ -82,7 +82,10 @@ class Song
     array = filename.split(" - ")
     new_song = array[1].gsub(".mp3", "")
 
-    song = new_song
+       song = new_song
+        song
+
+
 
 
         #binding.pry
