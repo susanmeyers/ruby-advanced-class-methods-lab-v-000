@@ -79,20 +79,20 @@ class Song
 
 
   def self.create_from_filename(filename)
-    new_from_filename(filename)
     array = filename.split(" - ")
     new_song = array[1].gsub(".mp3", "")
+    name_of_artist = array[0]
 
     song = self.new
     song.name = new_song
+    song.artist_name = name_of_artist
+    binding.pry
     song
 
 
 
 
-       song = new_song
-        song
-
+       
 
 
 
