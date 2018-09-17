@@ -83,10 +83,10 @@ class Song
         new_song = song_name
         new_artist = name_of_artist
 
-        song = self.new
-        song.name = new_song
+        new_song = self.new
+        new_song.name = new_song
         song.artist_name =  new_artist
-        
+
 
         # new_artist = artist_name
         #  song = self.new
