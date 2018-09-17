@@ -80,11 +80,11 @@ class Song
 
   def self.create_from_filename(filename)
        new_from_filename(filename)
-        new_song = song_name
+        new_song = song
         new_artist = name_of_artist
 
-        new_song = self.new
-        new_song.name = new_song
+         song = self.new
+         song.name = new_song
         song.artist_name =  new_artist
 
 
