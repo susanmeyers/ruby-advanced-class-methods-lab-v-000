@@ -84,6 +84,7 @@ class Song
 
       song = self.new
         song.name = new_song
+        binding.pry
           song
 
 
