@@ -82,8 +82,8 @@ class Song
     array = filename.split(" - ")
     new_song = array[1].gsub(".mp3", "")
 
-      song = self.new
-        song.name = new_song
+        song = self.new
+        song = new_song
         binding.pry
           song
 
