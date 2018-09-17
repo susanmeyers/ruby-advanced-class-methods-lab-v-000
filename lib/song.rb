@@ -83,7 +83,7 @@ class Song
     new_song = array[1].gsub(".mp3", "")
 
         song = self.new
-        song = new_song
+        song.name = new_song
         new_song
         #binding.pry
 
