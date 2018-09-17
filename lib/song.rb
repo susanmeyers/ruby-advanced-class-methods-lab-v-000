@@ -85,7 +85,7 @@ class Song
 
     song = self.new
     new_song = song
-    song.artist_name = name_of_artist
+    name_of_artist = song.artist_name
     binding.pry
 
 
